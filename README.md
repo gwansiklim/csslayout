@@ -11,3 +11,5 @@ css 심화 강의 모음 & 사용법
 * flex-direction: column을 이용하면 중식축이 변환. 이때, 가로로되어 있던 중식축이 세로로 변경이 된다.
 * class명:nth-child(2) 는 동일한 class명중에 2번째 자식을 가리키는 말이다.
 * class명:nth-child()를 통해 순서를 바꿀수도 있고, 따로 지정한 자식만 변경이 필요한 경우에 사용을 한다.
+* flex-wrap을 이용하면 width간격이 일정해진다.
+* 
