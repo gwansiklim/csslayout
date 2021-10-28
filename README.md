@@ -25,10 +25,10 @@ css 심화 강의 모음 & 사용법
 * column-gap 같은 경우 가로로 얼마만큰 간격을 주는지 나타낸다.
 * row-gap 같은 경우에는 세로로 얼마만큼 간격을 주는지 나타낸다.
 * grid-template-areas는 각각의 box마다 색을 주고 변형을 줄 수 있게 해준다. 
-<img src="file:///Users/gwansik/Desktop/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-10-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2010.28.23.png">
+<img width="408" alt="스크린샷 2021-10-28 오후 10 28 23" src="https://user-images.githubusercontent.com/85220179/139266292-1354296c-d8bf-468d-a634-2b0eceb111df.png">
 
 위의 사진처럼 각각 class에다가 사용할 명칭을 정해주고, 그리고 부모 class에다가 각각 하나씩 어떤 식으로 사용할지 넣어준다.
 
-<img src="file:///Users/gwansik/Desktop/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-10-28%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2010.30.50.png">
+<img width="821" alt="스크린샷 2021-10-28 오후 10 30 50" src="https://user-images.githubusercontent.com/85220179/139266327-d3c06261-06ab-4011-86a0-341e88445207.png">
 
 만약 위와 같이 했을 경우 이런식으로 나타나게 된다. 
