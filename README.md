@@ -14,4 +14,13 @@ css 심화 강의 모음 & 사용법
 * flex-wrap을 이용하면 width간격이 일정해진다.
 * flex-shrink는 화면이 줄어들 떄 지정한 것을 다른것과 다르게 더 줄여주는(?) 역할이다.
 * flex-grow는 shrink와 반대로 지정한 것을 크게 만들어 준다.
+* align-self는 class명:nth-child()에 한개만 조작 할 수 있게 해준다. (flex-end, center)
+* order는 순서를 변경?? 해준다고 이해를 했는데 이 부분은 좀 더 공부할 필요가 있을것 같다.
 
+## Grid
+
+* grid-template-columns: 250px 250px 250px; 이것은 3개의 box를 가로로 250px 만큼 늘려준다.
+* grid-template-rows: 100px 50px 300px; 같은 경우에는 세로로 각 box마다 늘려준다.
+* gap 같은 경우에는 각 box마다 전체적인 간격을 나눠준다.
+* column-gap 같은 경우 가로로 얼마만큰 간격을 주는지 나타낸다.
+* row-gap 같은 경우에는 세로로 얼마만큼 간격을 주는지 나타낸다.
