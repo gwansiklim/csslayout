@@ -55,3 +55,6 @@ css 심화 강의 모음 & 사용법
 * grid-auto-flow:column은 여러개의 div가 존재 했을 때, 수직으로 나타나게 해주는 것이 아니라 수평으로 변환하고 옆으로 늘려주는 css이다. 
 * 수평으로 간격과 크기를 맞추기를 원한다면 grid-auto-row와 같은 grid-auto-column으로 맞춰 주면 된다.
 
+<img src="./img/6.png">
+  코드는 위의 사진을 보고 이해하면 좋다.
+  
