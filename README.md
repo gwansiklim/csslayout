@@ -58,3 +58,5 @@ css 심화 강의 모음 & 사용법
 <img src="./img/6.png">
   코드는 위의 사진을 보고 이해하면 좋다.
   
+  
+* minimax(100px, 1fr)은 grid-template-columns가 아무리 많아도 크기를 고정해주는 역활을 맡고있다.
