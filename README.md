@@ -66,10 +66,18 @@ css 심화 강의 모음 & 사용법
 
 * styles.scss에서 작업을 하면 ./dest/style.css에 반영이 되고, sass를 css로 변환을 해준다.
 
-*  _(언더바)를 사용하여 폴더를 만들어 주고 $(달러)를 사용하여 $변수 : 적용할 css를 적어준 후, style.scss에서 $변수명을 이용하여 import해 올 수 있다. 이때, 꼭!!!!!! style.scss파일안에 적용할 파일 import를 해주어야 한다.
+*  _(언더바)를 사용하여 폴더를 만들어 주고 $(달러)를 사용하여 $변수 : 적용할 css를 적어준 후,</br> 
+style.scss에서 $변수명을 이용하여 import해 올 수 있다.</br> 
+이때, 꼭!!!!!! style.scss파일안에 적용할 파일 import를 해주어야 한다.
 
 * mixin을 이용하여 function 처럼 사용 할 수 있다.
+* mixin을 사용할 경우 _바를 이용하여 파일을 만들고 변수를 선언해주고 _mixins.scc파일을 만들고,</br>
+불러주는 식으로 이용을 한다.
 
 mixin의 예를 들면, 밑의 사진과 같이 사용이 가능하다.
 
-<img src="./img/7.png"> <img src="./img/8.png">
+_mixins.scss
+<img src="./img/7.png"> 
+
+_style.scss
+<img src="./img/8.png">
