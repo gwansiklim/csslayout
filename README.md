@@ -76,8 +76,8 @@ style.scss에서 $변수명을 이용하여 import해 올 수 있다.</br>
 
 mixin의 예를 들면, 밑의 사진과 같이 사용이 가능하다.
 
-_mixins.scss
+* _mixins.scss
 <img src="./img/7.png"> 
 
-_style.scss
+* _style.scss
 <img src="./img/8.png">
