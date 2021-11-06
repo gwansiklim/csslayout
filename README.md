@@ -70,14 +70,24 @@ css 심화 강의 모음 & 사용법
 style.scss에서 $변수명을 이용하여 import해 올 수 있다.</br> 
 이때, 꼭!!!!!! style.scss파일안에 적용할 파일 import를 해주어야 한다.
 
-* mixin을 이용하여 function 처럼 사용 할 수 있다.
+* mixin을 이용하여 function 처럼 사용 할 수 있다. (같은 명령어 or 태그를 사용하지만 다르게 코딩 하고 싶을 때 사용.)
 * mixin을 사용할 경우 _바를 이용하여 파일을 만들고 변수를 선언해주고 _mixins.scc파일을 만들고,</br>
 불러주는 식으로 이용을 한다.
 
 mixin의 예를 들면, 밑의 사진과 같이 사용이 가능하다.
 
-* _mixins.scss
+* _mixins.scss(2가지 방식)
 <img src="./img/7.png"> 
+<img src="./img/9.png"> 
 
-* _style.scss
+* _style.scss(2가지 방식)
 <img src="./img/8.png">
+<img src="./img/10.png"> 
+
+* extend는 다른코드를 확장하거나 코드를 재사용하고 싶을때 사용.
+* extend는 %를 이용한다.
+
+* 사용방법
+
+<img src="./img/11.png"> 
+<img src="./img/12.png"> 

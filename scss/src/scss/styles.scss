@@ -1,15 +1,34 @@
 @import "_variables.scss";
 @import "_mixins.scss";
+@import "_button.scss";
+
+
+// a {
+//     margin-bottom: 10px;
+//     &:nth-child(odd) {
+//         @include link("odd");
+//     }
+//     &:nth-child(even) {
+//         @include link("even");
+//     }
+// }
+
+// a {
+//     margin-bottom: 10px;
+//     &:nth-child(odd) {
+//         color: blue;
+//     }
+//     &:nth-child(even) {
+//         color: red;
+//     }
+// }
 
 a {
-    margin-bottom: 10px;
-    &:nth-child(odd) {
-        @include link("odd");
-    }
-    &:nth-child(even) {
-        @include link("even");
-    }
+    @extend %button;
+    text-decoration: none;
 }
-
-
+button {
+    @extend %button;
+    border: none;
+}
 
