@@ -1,1 +1,1 @@
-body{background:peru}body a{color:#00f}
+a{margin-bottom:10px}a:nth-child(even),a:nth-child(odd){text-decoration:none;display:block;color:#00f}a:nth-child(even){color:red}

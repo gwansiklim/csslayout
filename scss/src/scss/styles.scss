@@ -1,6 +1,15 @@
-body {
-  background: peru;
-  a {
-    color: blue;
-  }
+@import "_variables.scss";
+@import "_mixins.scss";
+
+a {
+    margin-bottom: 10px;
+    &:nth-child(odd) {
+        @include link("odd");
+    }
+    &:nth-child(even) {
+        @include link("even");
+    }
 }
+
+
+
