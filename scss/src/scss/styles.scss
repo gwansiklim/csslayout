@@ -13,15 +13,15 @@
 //     }
 // }
 
-// a {
-//     margin-bottom: 10px;
-//     &:nth-child(odd) {
-//         color: blue;
-//     }
-//     &:nth-child(even) {
-//         color: red;
-//     }
-// }
+a {
+    margin-bottom: 10px;
+    &:nth-child(odd) {
+        @include link(blue)
+    }
+    &:nth-child(even) {
+        @include link(red)
+    }
+}
 
 a {
     @extend %button;
